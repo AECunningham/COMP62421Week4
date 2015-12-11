@@ -1,0 +1,6 @@
+OPEN mondial
+RUN Task2Query10.xq
+RUN Task2Query10.xq
+RUN Task2Query10.xq
+RUN Task2Query10.xq
+CLOSE
