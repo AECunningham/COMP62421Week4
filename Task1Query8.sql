@@ -4,4 +4,4 @@ select name from city where name like "Man%";
 select name from city where name like "Man%";
 select name from city where name like "Man%";
 select name from city where name like "Man%";
-detach database 'mondial.db';
+detach database 'mondial';

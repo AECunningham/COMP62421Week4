@@ -13,4 +13,4 @@ select distinct name,length from river,geo_river
 select distinct name,length from river,geo_river
    where river.name = geo_river.river
    and country = "GB";
-detach database 'mondial.db';
+detach database 'mondial';

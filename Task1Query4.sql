@@ -21,4 +21,4 @@ select country.name
    where country.code = geo_island.country
    group by country.name
    having count(distinct island) > 10;
-detach database 'mondial.db';
+detach database 'mondial';

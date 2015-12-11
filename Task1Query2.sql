@@ -5,4 +5,4 @@ select name from lake union select name from river union select name from sea;
 select name from lake union select name from river union select name from sea;
 select name from lake union select name from river union select name from sea;
 select name from lake union select name from river union select name from sea;
-detach database 'mondial.db';
+detach database 'mondial';

@@ -33,4 +33,4 @@ select country.name,organization.name
    and ismember.organization = organization.abbreviation
    and organization.established > "1994-12-01"
    order by country.name;
-detach database 'mondial.db';
+detach database 'mondial';

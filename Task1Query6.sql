@@ -33,4 +33,4 @@ select countryname,sum(length) from
    group by countryname
    order by sum(length) desc
    limit 10;
-detach database 'mondial.db';
+detach database 'mondial';

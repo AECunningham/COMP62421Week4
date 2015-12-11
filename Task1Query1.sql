@@ -5,6 +5,6 @@ select name from country where code in (select country from geo_sea) order by na
 select name from country where code in (select country from geo_sea) order by name;
 select name from country where code in (select country from geo_sea) order by name;
 select name from country where code in (select country from geo_sea) order by name;
-detach database 'mondial.db';
+detach database 'mondial';
 
 

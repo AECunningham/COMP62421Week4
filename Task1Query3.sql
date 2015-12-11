@@ -5,5 +5,5 @@ select avg(length) from river;
 select avg(length) from river;
 select avg(length) from river;
 select avg(length) from river;
-detach database 'mondial.db';
+detach database 'mondial';
 

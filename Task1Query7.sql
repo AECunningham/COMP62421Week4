@@ -5,5 +5,5 @@ select * from city where name = "Manchester";
 select * from city where name = "Manchester";
 select * from city where name = "Manchester";
 select * from city where name = "Manchester";
-detach database 'mondial.db';
+detach database 'mondial';
 

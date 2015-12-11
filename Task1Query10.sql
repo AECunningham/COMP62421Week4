@@ -17,4 +17,4 @@ select country.name,count(distinct island) as Islands
    from country,geo_island
    where country.code = geo_island.country
    group by country.name,geo_island.country;
-detach database 'mondial.db';
+detach database 'mondial';
